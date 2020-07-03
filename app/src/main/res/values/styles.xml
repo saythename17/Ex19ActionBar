@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        ActionBar 없애기-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        상태표시줄 제거는 불가(운영체제가 제어하기 때문)
+            ->화면을 full Screen 으로(전체화면 모드)-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        overlay-->
+        <item name="windowActionBarOverlay">true</item>
+<!--        colors.xml 에서 배경색을 투명하게 처리-->
+    </style>
+
+</resources>
